@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    display: table;
+}
+.imagen{
+    background-image: url("imagenes /pasto.png");
+    height: 100%;
+    min-height: 100%; 
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.texto{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 50px;
+    height: 647px;
+}
+.botones{
+    float: right;
+    margin-left: auto;
+
+}
+.centrado{
+    position: absolute;
+    margin-top:70px ;
+    
+
+}
+.tamaño{
+    margin: 10px;
+}
+.margen-total{
+    width: 100%;
+}
+.sombra{
+    box-shadow: 5px 3px 15px -2px #000000;
+}
+.color-card{
+    background-color: lavenderblush;
+}
+.espacio-select{
+    margin: 5px;
+}
